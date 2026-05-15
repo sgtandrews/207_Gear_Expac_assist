@@ -1,0 +1,94 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: O:\USASOC_backpacks\data\m18_smoke.rvmat
+//Produced from mikero's Dos Tools Dll version 9.36
+//https://mikero.bytex.digital/Downloads
+//'now' is Sun Dec 03 16:05:57 2023 : 'file' last modified on Sun Dec 03 16:05:57 2023
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+ambient[] = {0.47000003,0.47,0.47000003,1};
+diffuse[] = {0.47000003,0.47,0.47000003,1};
+forcedDiffuse[] = {0,0,0,0};
+emmisive[] = {0,0,0,1};
+specular[] = {1,0.99999994,0.9999997,1};
+specularPower = 200;
+PixelShaderID = "Super";
+VertexShaderID = "Super";
+class Stage1
+{
+	texture = "USASOC_backpacks\data\M18_Smoke_nohq.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage2
+{
+	texture = "#(argb,8,8,3)color(0.5,0.5,0.5,1,DT)";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage3
+{
+	texture = "#(argb,8,8,3)color(0,0,0,0,MC)";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage4
+{
+	texture = "#(argb,8,8,3)color(1,1,1,1,AS)";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage5
+{
+	texture = "USASOC_backpacks\data\M18_Smoke_smdi.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage6
+{
+	texture = "#(ai,64,64,1)fresnel(1,0.7)";
+	uvSource = "none";
+};
+class Stage7
+{
+	texture = "a3\data_f\env_co.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
