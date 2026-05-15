@@ -1,0 +1,6 @@
+//<'tfb_uniforms.pbo' properties via Mikero's dos tools, dll version 10.13>
+prefix=tfb_uniforms;
+Mikero=DePbo.dll.7.97;
+version=24010301;
+//PboType=Arma Addon;
+//</properties>
