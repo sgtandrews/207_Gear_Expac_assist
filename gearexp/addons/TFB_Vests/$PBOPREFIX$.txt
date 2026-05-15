@@ -1,0 +1,4 @@
+//<'TFB_Vests.pbo' properties via Mikero's dos tools, dll version 10.13>
+prefix=TFB_Vests;
+//PboType=Arma Addon;
+//</properties>
