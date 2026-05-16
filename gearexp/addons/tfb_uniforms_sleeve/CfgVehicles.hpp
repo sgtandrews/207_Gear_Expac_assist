@@ -6,8 +6,8 @@ class tfb_g3_base_v: B_Soldier_F
 	camouflage = 1;
 	scopeArsenal = 0;
 	author = "TFB";
-	model = "tfb_uniforms\mesh\tfb_g3_g.p3d";
-	picture = "tfb_uniforms\ui\g3_mc_ca.paa";
+	model = "\tfb_uniforms\mesh\tfb_g3_g.p3d";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	uniformClass = "tfb_g3_mc_g_w";
 	hiddenSelections[] = {};
 	hiddenSelectionsTextures[] = {};
@@ -18,6 +18,7 @@ class tfb_g3_mc_r1_g_s_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r1_g_s.p3d";
 	uniformClass = "tfb_g3_mc_r1_g_s_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -49,6 +50,7 @@ class tfb_g3_mc_r2_g_s_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r2_g_s.p3d";
 	uniformClass = "tfb_g3_mc_r2_g_s_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -81,6 +83,7 @@ class tfb_g3_mc_r1_s_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r1_s.p3d";
 	uniformClass = "tfb_g3_mc_r1_g_s_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -110,6 +113,7 @@ class tfb_g3_mc_r2_s_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r2_s.p3d";
 	uniformClass = "tfb_g3_mc_r3_g_s_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -143,6 +147,7 @@ class tfb_g3_mc_r1_np_g_s_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r1_g_s.p3d";
 	uniformClass = "tfb_g3_mc_r1_g_s_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -174,6 +179,7 @@ class tfb_g3_mc_r2_np_g_s_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r2_g_s.p3d";
 	uniformClass = "tfb_g3_mc_r2_g_s_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -206,6 +212,7 @@ class tfb_g3_mc_r1_np_s_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r1_s.p3d";
 	uniformClass = "tfb_g3_mc_r1_np_s_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -235,6 +242,7 @@ class tfb_g3_mc_r2_np_s_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r2_s.p3d";
 	uniformClass = "tfb_g3_mc_r2_np_s_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
