@@ -5,6 +5,7 @@ class tfb_g3_mc_np_g_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "tfb_uniforms\mesh\tfb_g3_g.p3d";
 	uniformClass = "tfb_g3_mc_g_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -32,6 +33,7 @@ class tfb_g3_mc_r1_np_g_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms\mesh\tfb_g3_r1_g.p3d";
 	uniformClass = "tfb_g3_mc_r1_g_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -61,6 +63,7 @@ class tfb_g3_mc_r2_np_g_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms\mesh\tfb_g3_r2_g.p3d";
 	uniformClass = "tfb_g3_mc_r2_g_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -89,8 +92,9 @@ class tfb_g3_mc_np_v: tfb_g3_base_v
 {
 	scope = 2;
 	scopeArsenal = 2;
-	model = "tfb_uniforms\mesh\tfb_g3.p3d";
+	model = "\tfb_uniforms\mesh\tfb_g3.p3d";
 	uniformClass = "tfb_g3_mc_np_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -116,6 +120,7 @@ class tfb_g3_mc_r1_np_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms\mesh\tfb_g3_r1.p3d";
 	uniformClass = "tfb_g3_mc_r1_np_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
@@ -143,6 +148,7 @@ class tfb_g3_mc_r2_np_v: tfb_g3_base_v
 	scopeArsenal = 2;
 	model = "\tfb_uniforms\mesh\tfb_g3_r2.p3d";
 	uniformClass = "tfb_g3_mc_r2_np_w";
+	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
 		"_top", 
