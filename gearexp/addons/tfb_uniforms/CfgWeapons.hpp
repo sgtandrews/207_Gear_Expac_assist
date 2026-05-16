@@ -30,7 +30,7 @@ class tfb_g3_base_w: Uniform_Base
 		arms = "off";
 	};
 };
-class tfb_g3_mc_g_w: Uniform_Base
+class tfb_g3_mc_g_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
