@@ -223,7 +223,7 @@ class CfgVehicles
 		scope=2;
 		displayName="TCCC RATS Pack";
 		model="\USASOC_backpacks\Medic_Pack.p3d";
-		picture="\USASOC_backpacks\ui.paa";
+		picture="\USASOC_backpacks\ui\mbag_ca.paa";
 		maximumLoad=360;
 		mass=60;
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
@@ -239,7 +239,7 @@ class CfgVehicles
 		scope=2;
 		displayName="JTAC Kitbag";
 		model="\USASOC_backpacks\TACP_Pack.p3d";
-		picture="\USASOC_backpacks\ui.paa";
+		picture="\USASOC_backpacks\ui\jbag_ca.paa";
 		maximumLoad=360;
 		mass=60;
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
@@ -256,7 +256,7 @@ class CfgVehicles
 		scopeArsenal=2;
 		scopeCurator=2;
 		isbackpack=1;
-		picture="\USASOC_backpacks\ui.paa";
+		picture="\USASOC_backpacks\ui\mgbag_ca.paa";
 		displayName="Heavy Weapons Rucksack";
 		model="\USASOC_backpacks\MG_Pack.p3d";
 		allowedSlots[]={901};
@@ -285,7 +285,7 @@ class CfgVehicles
 		scope=2;
 		displayName="JPC Backpanel, Sapper";
 		model="\USASOC_backpacks\jpc_panel_2.p3d";
-		picture="\USASOC_backpacks\ui.paa";
+		picture="\USASOC_backpacks\ui\sapbag_ca.paa";
 		maximumLoad=300;
 		mass=30;
 	};
