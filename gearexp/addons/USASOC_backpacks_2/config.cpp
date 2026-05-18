@@ -25,7 +25,7 @@ class CfgVehicles
 		scope=2;
 		displayName="JPC Backpanel, Assaulter";
 		model="USASOC_backpacks_2\JPCPanel1.p3d";
-		picture="USASOC_backpacks_2\ui.paa";
+		picture="USASOC_backpacks_2\ui\assbag_ca.paa";
 		maximumLoad=300;
 		mass=30;
 		hiddenSelections[]=
