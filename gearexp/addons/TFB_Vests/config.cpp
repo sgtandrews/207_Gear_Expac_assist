@@ -5,7 +5,16 @@ class CfgPatches
 		units[]={};
 		weapons[]=
 		{
-			""
+			"TFB_JPC_Assaulter_13_152A",
+			"TFB_JPC_Assaulter_13_152A_NB",
+			"TFB_JPC_Assaulter_10_148",
+			"TFB_JPC_Assaulter_10_148_NB",
+			"TFB_JPC_Comms_2_Dual_2",
+			"TFB_JPC_Comms_2_Dual_2_NB",
+			"TFB_JPC_Weapons_2_148",
+			"TFB_JPC_Weapons_2_148_NB",
+			"TFB_JPC_Weapons_6_MPU5",
+			"TFB_JPC_Weapons_6_MPU5_NB"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
