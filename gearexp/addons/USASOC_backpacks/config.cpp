@@ -8,7 +8,8 @@ class CfgPatches
 			"ACE_Box_Misc",
 			"Medic_Pack",
 			"JTAC_Pack",
-			"MG_Pack"
+			"MG_Pack",
+			"jpc_panel_2"
 		};
 		weapons[] = {};
 		requiredVersion = 0.1;
