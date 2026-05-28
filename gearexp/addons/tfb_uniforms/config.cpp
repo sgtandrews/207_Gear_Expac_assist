@@ -70,40 +70,123 @@ class XtdGearModels
 			author = "TFB";
 			options[] = 
 			{
-				"top",
-				"bottom",
 				"sleeves",
 				"gloves",
 				"pads",
 				"arms"
 			};
-			class top
+			textureOptions[] =
 			{
-				label = "Top";
-				alwaysSelectable = 1;
-				values[] =
+				"camo",
+				"glove_co",
+				"boot_co",
+				"patch"
+			};
+			class camo
+			{
+				label = "Camo";
+				values[] = 
 				{
-					"mc"
+					"AMC",
+					"MC"
 				};
-				class mc
+				hiddenSelections[] = 
 				{
-					label = "MC";
-					description = "Multicam";
+					"_top",
+					"_bottom",
+					"_cuffs"
+				};
+				class AMC
+				{
+					textures[] = 
+					{
+						"tfb_uniforms\tex\g3_top_amc_co.paa", 
+						"tfb_uniforms\tex\g3_bottom_amc_co.paa",
+						"tfb_uniforms\tex\cuffs_amc_co.paa"
+					};
+					image = "tfb_uniforms\ui\amc.paa";
+				};
+				class MC
+				{
+					textures[] =
+					{
+						"tfb_uniforms\tex\g3_top_mc_co.paa", 
+						"tfb_uniforms\tex\g3_bottom_mc_co.paa",
+						"tfb_uniforms\tex\cuffs_mc_co.paa"
+					};
 					image = "tfb_uniforms\ui\mc.paa";
 				};
 			};
-			class bottom
+			class glove_co
 			{
-				label = "Pants";
+				label = "Glove Colour";
+				values[] = 
+				{
+					"Black",
+					"Brown"
+				};
+				hiddenSelection = "_gloves";
+				class Black
+				{
+					texture = "tfb_uniforms\tex\gunglove_grey_CO.paa";
+					image = "tfb_uniforms\ui\blk.paa";
+				};
+				class Brown
+				{
+					texture = "tfb_uniforms\tex\gunglove_brown_CO.paa";
+					image = "tfb_uniforms\ui\brwn.paa";
+				};
+			};
+			class boot_co
+			{
+				label = "Boot Colour";
+				values[] = 
+				{
+					"Brown",
+					"Tan"
+				};
+				hiddenSelection = "_boots";
+				class Brown
+				{
+					texture = "tfb_uniforms\tex\salomon_brown_co.paa";
+					image = "tfb_uniforms\ui\brwn.paa";
+				};
+				class Tan
+				{
+					texture = "tfb_uniforms\tex\salomon_tan_co.paa";
+					image = "tfb_uniforms\ui\cb.paa";
+				};
+			};
+			class patch
+			{
+				label = "Patch Type";
 				values[] =
 				{
-					"mc"
+					"Lo",
+					"Hi"
 				};
-				class mc
+				hiddenSelections[] =
 				{
-					label = "MC";
-					description = "Multicam";
-					image = "tfb_uniforms\ui\mc.paa";
+					"_patchR",
+					"_patchL"
+				};
+				class Lo
+				{
+					label = "Low Vis";
+					textures[] =
+					{
+						"tfb_uniforms\tex\patch\207lo_CO.paa",
+						"tfb_uniforms\tex\patch\207lo_CO.paa"
+					};
+				};
+				class Hi
+				{
+					label = "Colour";
+					textures[] =
+					{
+						"tfb_uniforms\tex\patch\207_CO.paa",
+						"tfb_uniforms\tex\patch\207_CO.paa"
+					};
 				};
 			};
 			class sleeves
