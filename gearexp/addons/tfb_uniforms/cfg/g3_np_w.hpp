@@ -12,8 +12,6 @@ class tfb_g3_mc_np_g_w: tfb_g3_base_w
 	class XtdGearInfo
 	{
 		model = "tfb_g3_u";
-		top = "mc";
-		bottom = "mc";
 		sleeves = "full";
 		gloves = "on";
 		pads = "off";
@@ -33,8 +31,6 @@ class tfb_g3_mc_r1_np_g_w: tfb_g3_base_w
 	class XtdGearInfo
 	{
 		model = "tfb_g3_u";
-		top = "mc";
-		bottom = "mc";
 		sleeves = "quarter";
 		gloves = "on";
 		pads = "off";
@@ -54,8 +50,6 @@ class tfb_g3_mc_r2_np_g_w: tfb_g3_base_w
 	class XtdGearInfo
 	{
 		model = "tfb_g3_u";
-		top = "mc";
-		bottom = "mc";
 		sleeves = "half";
 		gloves = "on";
 		pads = "off";
@@ -76,8 +70,6 @@ class tfb_g3_mc_np_w: tfb_g3_base_w
 	class XtdGearInfo
 	{
 		model = "tfb_g3_u";
-		top = "mc";
-		bottom = "mc";
 		sleeves = "full";
 		gloves = "off";
 		pads = "off";
@@ -97,8 +89,6 @@ class tfb_g3_mc_r1_np_w: tfb_g3_base_w
 	class XtdGearInfo
 	{
 		model = "tfb_g3_u";
-		top = "mc";
-		bottom = "mc";
 		sleeves = "quarter";
 		gloves = "off";
 		pads = "off";
@@ -118,8 +108,6 @@ class tfb_g3_mc_r2_np_w: tfb_g3_base_w
 	class XtdGearInfo
 	{
 		model = "tfb_g3_u";
-		top = "mc";
-		bottom = "mc";
 		sleeves = "half";
 		gloves = "off";
 		pads = "off";
