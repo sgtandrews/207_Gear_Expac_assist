@@ -1,7 +1,7 @@
 // gloves ///
 class tfb_g3_mc_np_g_v: tfb_g3_base_v
 {
-	scope = 2;
+	scope = 1;
 	scopeArsenal = 2;
 	model = "tfb_uniforms\mesh\tfb_g3_g.p3d";
 	uniformClass = "tfb_g3_mc_g_w";
@@ -19,19 +19,19 @@ class tfb_g3_mc_np_g_v: tfb_g3_base_v
 	};
 	hiddenSelectionsTextures[] = 
 	{
-		"tfb_uniforms\tex\g3_top_mc_co.paa", 
-		"tfb_uniforms\tex\g3_bottom_mc_co.paa", 
+		"tfb_uniforms\tex\g3_top_amc_co.paa", 
+		"tfb_uniforms\tex\g3_bottom_amc_co.paa", 
 		"tfb_uniforms\tex\gunglove_grey_co.paa", 
 		"", 
 		"",
-		"tfb_uniforms\tex\salomon_brown_co.paa",
+		"tfb_uniforms\tex\salomon_tan_co.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa"
 	};
 };
 class tfb_g3_mc_r1_np_g_v: tfb_g3_base_v
 {
-	scope = 2;
+	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms\mesh\tfb_g3_r1_g.p3d";
 	uniformClass = "tfb_g3_mc_r1_g_w";
@@ -49,19 +49,19 @@ class tfb_g3_mc_r1_np_g_v: tfb_g3_base_v
 	};
 	hiddenSelectionsTextures[] = 
 	{
-		"tfb_uniforms\tex\g3_top_mc_co.paa", 
-		"tfb_uniforms\tex\g3_bottom_mc_co.paa", 
+		"tfb_uniforms\tex\g3_top_amc_co.paa", 
+		"tfb_uniforms\tex\g3_bottom_amc_co.paa", 
 		"tfb_uniforms\tex\gunglove_grey_co.paa", 
 		"", 
-		"tfb_uniforms\tex\cuffs_mc_co.paa", 
-		"tfb_uniforms\tex\salomon_brown_co.paa",
+		"tfb_uniforms\tex\cuffs_amc_co.paa", 
+		"tfb_uniforms\tex\salomon_tan_co.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa"
 	};
 };
 class tfb_g3_mc_r2_np_g_v: tfb_g3_base_v
 {
-	scope = 2;
+	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms\mesh\tfb_g3_r2_g.p3d";
 	uniformClass = "tfb_g3_mc_r2_g_w";
@@ -79,12 +79,12 @@ class tfb_g3_mc_r2_np_g_v: tfb_g3_base_v
 	};
 	hiddenSelectionsTextures[] = 
 	{
-		"tfb_uniforms\tex\g3_top_mc_co.paa", 
-		"tfb_uniforms\tex\g3_bottom_mc_co.paa", 
+		"tfb_uniforms\tex\g3_top_amc_co.paa", 
+		"tfb_uniforms\tex\g3_bottom_amc_co.paa", 
 		"tfb_uniforms\tex\gunglove_grey_co.paa", 
 		"", 
-		"tfb_uniforms\tex\cuffs_mc_co.paa", 
-		"tfb_uniforms\tex\salomon_brown_co.paa",
+		"tfb_uniforms\tex\cuffs_amc_co.paa", 
+		"tfb_uniforms\tex\salomon_tan_co.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa"
 	};
@@ -92,7 +92,7 @@ class tfb_g3_mc_r2_np_g_v: tfb_g3_base_v
 /// hands ///
 class tfb_g3_mc_np_v: tfb_g3_base_v
 {
-	scope = 2;
+	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms\mesh\tfb_g3.p3d";
 	uniformClass = "tfb_g3_mc_np_w";
@@ -101,6 +101,7 @@ class tfb_g3_mc_np_v: tfb_g3_base_v
 	{
 		"_top", 
 		"_bottom", 
+		"_gloves",
 		"_pads", 
 		"_cuffs",
 		"_boots",
@@ -109,18 +110,19 @@ class tfb_g3_mc_np_v: tfb_g3_base_v
 	};
 	hiddenSelectionsTextures[] = 
 	{
-		"tfb_uniforms\tex\g3_top_mc_co.paa", 
-		"tfb_uniforms\tex\g3_bottom_mc_co.paa", 
+		"tfb_uniforms\tex\g3_top_amc_co.paa", 
+		"tfb_uniforms\tex\g3_bottom_amc_co.paa",
+		"", 
 		"", 
 		"",
-		"tfb_uniforms\tex\salomon_brown_co.paa",
+		"tfb_uniforms\tex\salomon_tan_co.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa"
 	};
 };
 class tfb_g3_mc_r1_np_v: tfb_g3_base_v
 {
-	scope = 2;
+	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms\mesh\tfb_g3_r1.p3d";
 	uniformClass = "tfb_g3_mc_r1_np_w";
@@ -129,6 +131,7 @@ class tfb_g3_mc_r1_np_v: tfb_g3_base_v
 	{
 		"_top", 
 		"_bottom", 
+		"_gloves",
 		"_pads", 
 		"_cuffs", 
 		"_boots",
@@ -137,18 +140,19 @@ class tfb_g3_mc_r1_np_v: tfb_g3_base_v
 	};
 	hiddenSelectionsTextures[] = 
 	{
-		"tfb_uniforms\tex\g3_top_mc_co.paa", 
-		"tfb_uniforms\tex\g3_bottom_mc_co.paa", 
+		"tfb_uniforms\tex\g3_top_amc_co.paa", 
+		"tfb_uniforms\tex\g3_bottom_amc_co.paa", 
+		"",
 		"", 
-		"tfb_uniforms\tex\cuffs_mc_co.paa", 
-		"tfb_uniforms\tex\salomon_brown_co.paa",
+		"tfb_uniforms\tex\cuffs_amc_co.paa", 
+		"tfb_uniforms\tex\salomon_tan_co.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa"
 	};
 };
 class tfb_g3_mc_r2_np_v: tfb_g3_base_v
 {
-	scope = 2;
+	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms\mesh\tfb_g3_r2.p3d";
 	uniformClass = "tfb_g3_mc_r2_np_w";
@@ -157,6 +161,7 @@ class tfb_g3_mc_r2_np_v: tfb_g3_base_v
 	{
 		"_top", 
 		"_bottom", 
+		"_gloves",
 		"_pads", 
 		"_cuffs", 
 		"_boots",
@@ -165,11 +170,12 @@ class tfb_g3_mc_r2_np_v: tfb_g3_base_v
 	};
 	hiddenSelectionsTextures[] = 
 	{
-		"tfb_uniforms\tex\g3_top_mc_co.paa", 
-		"tfb_uniforms\tex\g3_bottom_mc_co.paa",  
+		"tfb_uniforms\tex\g3_top_amc_co.paa", 
+		"tfb_uniforms\tex\g3_bottom_amc_co.paa",  
+		"",
 		"", 
-		"tfb_uniforms\tex\cuffs_mc_co.paa", 
-		"tfb_uniforms\tex\salomon_brown_co.paa",
+		"tfb_uniforms\tex\cuffs_amc_co.paa", 
+		"tfb_uniforms\tex\salomon_tan_co.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa",
 		"tfb_uniforms\tex\patch\207_CO.paa"
 	};

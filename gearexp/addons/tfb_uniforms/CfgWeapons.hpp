@@ -33,7 +33,7 @@ class tfb_g3_mc_g_w: tfb_g3_base_w
 	scope = 2;
 	scopeArsenal = 2;
 	author = "TFB";
-	displayName = "Crye G3, Full [G/P] (MC)";
+	displayName = "Crye G3, Full [G/P] (AMC)";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -55,7 +55,7 @@ class tfb_g3_mc_r1_g_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/4 Roll [G/P] (MC)";
+	displayName = "Crye G3, 1/4 Roll [G/P] (AMC)";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -74,7 +74,7 @@ class tfb_g3_mc_r2_g_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/2 Roll [G/P] (MC)";
+	displayName = "Crye G3, 1/2 Roll [G/P] (AMC)";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -94,7 +94,7 @@ class tfb_g3_mc_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, Full [P] (MC)";
+	displayName = "Crye G3, Full [P] (AMC)";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -113,7 +113,7 @@ class tfb_g3_mc_r1_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/4 Roll [P] (MC)";
+	displayName = "Crye G3, 1/4 Roll [P] (AMC)";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -132,7 +132,7 @@ class tfb_g3_mc_r2_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/2 Roll [P] (MC)";
+	displayName = "Crye G3, 1/2 Roll [P] (AMC)";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	class ItemInfo: ItemInfo
 	{
